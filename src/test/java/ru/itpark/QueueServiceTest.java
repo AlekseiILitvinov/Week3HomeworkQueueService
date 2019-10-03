@@ -39,7 +39,7 @@ class QueueServiceTest {
         service.addToQueue(new Person("Cody"));
 
         int actual = service.countNumberOfElements();
-        assertEquals(3,actual);
+        assertEquals(3, actual);
     }
 
     @Test
@@ -47,6 +47,6 @@ class QueueServiceTest {
         QueueService service = new QueueService();
 
         int actual = service.countNumberOfElements();
-        assertEquals(0,actual);
+        assertEquals(0, actual);
     }
 }
