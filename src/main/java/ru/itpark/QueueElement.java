@@ -8,6 +8,10 @@ public class QueueElement {
         this.customer = customer;
     }
 
+    public Person getCustomer() {
+        return customer;
+    }
+
     public QueueElement getNextElement() {
         return nextElement;
     }
