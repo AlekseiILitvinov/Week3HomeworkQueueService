@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/AlekseiILitvinov/Week3HomeworkQueueService.svg?branch=master)](https://travis-ci.org/AlekseiILitvinov/Week3HomeworkQueueService)
+[![Build Status](https://travis-ci.org/AlekseiILitvinov/Week3HomeworkQueueService.svg?branch=master)](https://travis-ci.org/AlekseiILitvinov/Week3HomeworkQueueService)[![codecov](https://codecov.io/gh/AlekseiILitvinov/Week3HomeworkQueueService/branch/master/graph/badge.svg)](https://codecov.io/gh/AlekseiILitvinov/Week3HomeworkQueueService)
