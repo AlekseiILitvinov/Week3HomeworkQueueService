@@ -17,7 +17,7 @@ public class QueueService {
     }
 
     private QueueElement getLastElement() {
-        QueueElement currentElement = this.current;
+        QueueElement currentElement = current;
         while (!Objects.isNull(currentElement.getNextElement())) {
             currentElement = currentElement.getNextElement();
         }
@@ -38,7 +38,7 @@ public class QueueService {
         if (Objects.isNull(current)) {
             return 0;
         }
-        QueueElement currentElement = this.current;
+        QueueElement currentElement = current;
         int counter = 1;
         while (!Objects.isNull(currentElement.getNextElement())) {
             counter += 1;
